@@ -1,8 +1,13 @@
 import axios from "axios";
+import server from "../../../environment";
+// const api = axios.create({
+//     baseURL: "http://localhost:3000",
+//     withCredentials: true,
+// })
 
 const api = axios.create({
-    baseURL: "http://localhost:3000",
-    withCredentials: true,
+    baseURL: server,
+    withCredentials: true
 })
 
 

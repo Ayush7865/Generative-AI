@@ -1,9 +1,14 @@
 import axios from "axios"
-import { cloneElement } from "react"
 
+import server from "../../../environment"
 //create an  reusable Axios instance
+// const api = axios.create({
+//     baseURL: "http://localhost:3000",
+//     withCredentials: true
+// })
+
 const api = axios.create({
-    baseURL: "http://localhost:3000",
+    baseURL: server,
     withCredentials: true
 })
 
