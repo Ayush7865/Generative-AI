@@ -121,7 +121,9 @@ Contributions are welcome! To contribute:
 
 ## 📄 License
 
-This project currently has no explicit license specified. Consider adding a `LICENSE` file (e.g., MIT) if you plan to open this project up for external use or contribution.
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+Copyright (c) 2026 Ayush Kumar Jha
 
 ---
 
