@@ -5,10 +5,16 @@ const cors = require("cors");
 const app = express();
 app.use(express.json());
 app.use(cookieParser());
+// app.use(cors({
+//     origin: "http://localhost:5173",
+//     credentials: true
+// }))
+
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://careergenie-frontend-kakb.onrender.com",
     credentials: true
 }))
+
 
 /*require all routes here */
 const AuthRouter = require("./router/auth.routes.js")
